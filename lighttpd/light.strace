@@ -1,0 +1,526 @@
+26635 execve("./lighttpd_instrumented", ["./lighttpd_instrumented", "-D", "-f", "/home/jun/straight-DTA/lighttpd-"...], [/* 14 vars */]) = 0
+26635 brk(0)                            = 0xd22000
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51d6000
+26635 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26635 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+26635 fstat(3, {st_mode=S_IFREG|0644, st_size=68722, ...}) = 0
+26635 mmap(NULL, 68722, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f29f51c5000
+26635 close(3)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+26635 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(3, {st_mode=S_IFREG|0644, st_size=14768, ...}) = 0
+26635 mmap(NULL, 2109704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f29f4db2000
+26635 mprotect(0x7f29f4db4000, 2097152, PROT_NONE) = 0
+26635 mmap(0x7f29f4fb4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f29f4fb4000
+26635 close(3)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+26635 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\25\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(3, {st_mode=S_IFREG|0644, st_size=247896, ...}) = 0
+26635 mmap(NULL, 2343080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f29f4b75000
+26635 mprotect(0x7f29f4bb1000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f4db0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3b000) = 0x7f29f4db0000
+26635 close(3)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+26635 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200l\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(3, {st_mode=S_IFREG|0755, st_size=135366, ...}) = 0
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51c4000
+26635 mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f29f4958000
+26635 mprotect(0x7f29f4970000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f4b6f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f29f4b6f000
+26635 mmap(0x7f29f4b71000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f29f4b71000
+26635 close(3)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+26635 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+26635 fstat(3, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+26635 mmap(NULL, 3925208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f29f4599000
+26635 mprotect(0x7f29f474e000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f494d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b4000) = 0x7f29f494d000
+26635 mmap(0x7f29f4953000, 17624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f29f4953000
+26635 close(3)                          = 0
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51c3000
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51c2000
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51c1000
+26635 arch_prctl(ARCH_SET_FS, 0x7f29f51c2700) = 0
+26635 mprotect(0x7f29f494d000, 16384, PROT_READ) = 0
+26635 mprotect(0x7f29f4b6f000, 4096, PROT_READ) = 0
+26635 mprotect(0x7f29f4db0000, 4096, PROT_READ) = 0
+26635 mprotect(0x7f29f4fb4000, 4096, PROT_READ) = 0
+26635 mprotect(0x501000, 4096, PROT_READ) = 0
+26635 mprotect(0x7f29f51d8000, 4096, PROT_READ) = 0
+26635 munmap(0x7f29f51c5000, 68722)     = 0
+26635 set_tid_address(0x7f29f51c29d0)   = 26635
+26635 set_robust_list(0x7f29f51c29e0, 0x18) = 0
+26635 futex(0x7ffff5cd10ac, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f29f51c2700) = -1 EAGAIN (Resource temporarily unavailable)
+26635 rt_sigaction(SIGRTMIN, {0x7f29f495e750, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGRT_1, {0x7f29f495e7e0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+26635 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+26635 mmap(NULL, 20975616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f3198000
+26635 brk(0)                            = 0xd22000
+26635 brk(0xd43000)                     = 0xd43000
+26635 open("tmp.26635", O_RDWR|O_CREAT|O_TRUNC, 0666) = 3
+26635 open("configFile", O_RDWR|O_CREAT|O_TRUNC, 0666) = 4
+26635 fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51d5000
+26635 write(4, "tmp.26635\n", 10)       = 10
+26635 mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f29f2997000
+26635 mprotect(0x7f29f2997000, 4096, PROT_NONE) = 0
+26635 clone(child_stack=0x7f29f3196ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f29f31979d0, tls=0x7f29f3197700, child_tidptr=0x7f29f31979d0) = 26636
+26636 set_robust_list(0x7f29f31979e0, 0x18) = 0
+26635 open("/dev/urandom", O_RDONLY <unfinished ...>
+26636 rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1],  <unfinished ...>
+26635 <... open resumed> )              = 5
+26636 <... rt_sigprocmask resumed> NULL, 8) = 0
+26636 futex(0x5026a0, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+26635 fstat(5, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+26635 ioctl(5, SNDCTL_TMR_TIMEBASE or TCGETS, 0x7ffff5cd0d18) = -1 EINVAL (Invalid argument)
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f2996000
+26635 read(5, "\25\207\325\37\1Q\0<c\"\300{\346\n^'|\215\211\233\245\241\231\347\315\240,f\227\330\214\363"..., 4096) = 4096
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2996000, 4096)      = 0
+26635 getuid()                          = 0
+26635 getcwd("/home/cruiser/benchmarks/lighttpd", 1087) = 34
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/lighttpd.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=11764, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/lighttpd.conf", O_RDONLY) = 5
+26635 mmap(NULL, 11764, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2994000
+26635 close(5)                          = 0
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/modules.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=3235, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/modules.conf", O_RDONLY) = 5
+26635 mmap(NULL, 3235, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2993000
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2993000, 3235)      = 0
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/access_log.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=714, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/access_log.conf", O_RDONLY) = 5
+26635 mmap(NULL, 714, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2993000
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2993000, 714)       = 0
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/debug.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=967, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/debug.conf", O_RDONLY) = 5
+26635 mmap(NULL, 967, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2993000
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2993000, 967)       = 0
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/mime.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=3011, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/mime.conf", O_RDONLY) = 5
+26635 mmap(NULL, 3011, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2993000
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2993000, 3011)      = 0
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/dirlisting.conf", {st_mode=S_IFREG|S_ISVTX|0777, st_size=1382, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/doc/config/conf.d/dirlisting.conf", O_RDONLY) = 5
+26635 mmap(NULL, 1382, PROT_READ, MAP_SHARED, 5, 0) = 0x7f29f2993000
+26635 close(5)                          = 0
+26635 munmap(0x7f29f2993000, 1382)      = 0
+26635 munmap(0x7f29f2994000, 11764)     = 0
+26635 close(0)                          = 0
+26635 open("/dev/null", O_RDWR)         = 0
+26635 close(1)                          = 0
+26635 open("/dev/null", O_RDWR)         = 1
+26635 stat("/home/jun/straight-dta/lighttpd-1.4.35/www/htdocs", 0x7ffff5cd0dd0) = -1 ENOENT (No such file or directory)
+26635 futex(0x7f29f4fb50b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26635 open("/usr/local/lib/mod_indexfile.so", O_RDONLY|O_CLOEXEC) = 5
+26635 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\n\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(5, {st_mode=S_IFREG|0755, st_size=35273, ...}) = 0
+26635 mmap(NULL, 2105512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f29f2794000
+26635 mprotect(0x7f29f2796000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f2995000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7f29f2995000
+26635 close(5)                          = 0
+26635 mprotect(0x7f29f2995000, 4096, PROT_READ) = 0
+26635 open("/usr/local/lib/mod_access.so", O_RDONLY|O_CLOEXEC) = 5
+26635 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \10\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(5, {st_mode=S_IFREG|0755, st_size=34618, ...}) = 0
+26635 mmap(NULL, 2105464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f29f2591000
+26635 mprotect(0x7f29f2592000, 2097152, PROT_NONE) = 0
+26635 mmap(0x7f29f2792000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7f29f2792000
+26635 close(5)                          = 0
+26635 mprotect(0x7f29f2792000, 4096, PROT_READ) = 0
+26635 open("/usr/local/lib/mod_accesslog.so", O_RDONLY|O_CLOEXEC) = 5
+26635 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\21\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(5, {st_mode=S_IFREG|0755, st_size=53292, ...}) = 0
+26635 mmap(NULL, 2113880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f29f238c000
+26635 mprotect(0x7f29f2390000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f258f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7f29f258f000
+26635 close(5)                          = 0
+26635 mprotect(0x7f29f258f000, 4096, PROT_READ) = 0
+26635 open("/usr/local/lib/mod_dirlisting.so", O_RDONLY|O_CLOEXEC) = 5
+26635 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\24\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(5, {st_mode=S_IFREG|0755, st_size=59337, ...}) = 0
+26635 mmap(NULL, 2114328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f29f2187000
+26635 mprotect(0x7f29f218b000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f238a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7f29f238a000
+26635 close(5)                          = 0
+26635 mprotect(0x7f29f238a000, 4096, PROT_READ) = 0
+26635 open("/usr/local/lib/mod_staticfile.so", O_RDONLY|O_CLOEXEC) = 5
+26635 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\17\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(5, {st_mode=S_IFREG|0755, st_size=45649, ...}) = 0
+26635 mmap(NULL, 2109736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f29f1f83000
+26635 mprotect(0x7f29f1f86000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f2185000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7f29f2185000
+26635 close(5)                          = 0
+26635 mprotect(0x7f29f2185000, 4096, PROT_READ) = 0
+26635 open("/var/run/lighttpd.pid", O_WRONLY|O_CREAT|O_EXCL|O_TRUNC, 0644) = -1 EEXIST (File exists)
+26635 stat("/var/run/lighttpd.pid", {st_mode=S_IFREG|0644, st_size=6, ...}) = 0
+26635 open("/var/run/lighttpd.pid", O_WRONLY|O_CREAT|O_TRUNC, 0644) = 5
+26635 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+26635 setrlimit(RLIMIT_NOFILE, {rlim_cur=2*1024, rlim_max=2*1024}) = 0
+26635 socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+26635 connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26635 close(6)                          = 0
+26635 socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+26635 connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26635 close(6)                          = 0
+26635 open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 6
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=513, ...}) = 0
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51d4000
+26635 read(6, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+26635 read(6, "", 4096)                 = 0
+26635 close(6)                          = 0
+26635 munmap(0x7f29f51d4000, 4096)      = 0
+26635 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=68722, ...}) = 0
+26635 mmap(NULL, 68722, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f29f51b0000
+26635 close(6)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 6
+26635 read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\22\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=35680, ...}) = 0
+26635 mmap(NULL, 2131240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f29f1d7a000
+26635 mprotect(0x7f29f1d82000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f1f81000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x7000) = 0x7f29f1f81000
+26635 close(6)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 6
+26635 read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`@\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=97248, ...}) = 0
+26635 mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f29f1b60000
+26635 mprotect(0x7f29f1b77000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f1d76000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x16000) = 0x7f29f1d76000
+26635 mmap(0x7f29f1d78000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f29f1d78000
+26635 close(6)                          = 0
+26635 mprotect(0x7f29f1d76000, 4096, PROT_READ) = 0
+26635 mprotect(0x7f29f1f81000, 4096, PROT_READ) = 0
+26635 munmap(0x7f29f51b0000, 68722)     = 0
+26635 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=68722, ...}) = 0
+26635 mmap(NULL, 68722, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f29f51b0000
+26635 close(6)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 6
+26635 read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0"..., 832) = 832
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=47680, ...}) = 0
+26635 mmap(NULL, 2143552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f29f1954000
+26635 mprotect(0x7f29f195e000, 2097152, PROT_NONE) = 0
+26635 mmap(0x7f29f1b5e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xa000) = 0x7f29f1b5e000
+26635 close(6)                          = 0
+26635 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+26635 open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 6
+26635 read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@!\0\0\0\0\0\0"..., 832) = 832
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=52120, ...}) = 0
+26635 mmap(NULL, 2148472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f29f1747000
+26635 mprotect(0x7f29f1753000, 2093056, PROT_NONE) = 0
+26635 mmap(0x7f29f1952000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xb000) = 0x7f29f1952000
+26635 close(6)                          = 0
+26635 mprotect(0x7f29f1952000, 4096, PROT_READ) = 0
+26635 mprotect(0x7f29f1b5e000, 4096, PROT_READ) = 0
+26635 munmap(0x7f29f51b0000, 68722)     = 0
+26635 open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 6
+26635 lseek(6, 0, SEEK_CUR)             = 0
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=1702, ...}) = 0
+26635 mmap(NULL, 1702, PROT_READ, MAP_SHARED, 6, 0) = 0x7f29f51d4000
+26635 lseek(6, 1702, SEEK_SET)          = 1702
+26635 munmap(0x7f29f51d4000, 1702)      = 0
+26635 close(6)                          = 0
+26635 socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+26635 connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26635 close(6)                          = 0
+26635 socket(PF_FILE, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+26635 connect(6, {sa_family=AF_FILE, path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+26635 close(6)                          = 0
+26635 open("/etc/group", O_RDONLY|O_CLOEXEC) = 6
+26635 lseek(6, 0, SEEK_CUR)             = 0
+26635 fstat(6, {st_mode=S_IFREG|0644, st_size=854, ...}) = 0
+26635 mmap(NULL, 854, PROT_READ, MAP_SHARED, 6, 0) = 0x7f29f51d4000
+26635 lseek(6, 854, SEEK_SET)           = 854
+26635 munmap(0x7f29f51d4000, 854)       = 0
+26635 close(6)                          = 0
+26635 socket(PF_INET6, SOCK_STREAM, IPPROTO_TCP) = 6
+26635 fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+26635 setsockopt(6, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+26635 open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 7
+26635 fstat(7, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+26635 fstat(7, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+26635 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51d4000
+26635 read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+26635 lseek(7, -2252, SEEK_CUR)         = 1267
+26635 read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+26635 close(7)                          = 0
+26635 munmap(0x7f29f51d4000, 4096)      = 0
+26635 write(2, "2014-07-06 13:34:07: (network.c."..., 204) = 204
+26635 bind(6, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = 0
+26635 listen(6, 1024)                   = 0
+26635 tgkill(26635, 26636, SIGRT_1)     = 0
+26635 futex(0x7ffff5cd0ea0, FUTEX_WAIT_PRIVATE, 1, NULL <unfinished ...>
+26636 <... futex resumed> )             = ? ERESTARTSYS (To be restarted)
+26636 --- SIGRT_1 (Unknown signal 33) @ 0 (0) ---
+26636 setgid(1000)                      = 0
+26636 futex(0x7f29f3197d1c, FUTEX_WAKE_PRIVATE, 1) = 0
+26636 futex(0x7ffff5cd0ea0, FUTEX_WAKE_PRIVATE, 1) = 1
+26635 <... futex resumed> )             = 0
+26636 rt_sigreturn(0x7ffff5cd0ea0 <unfinished ...>
+26635 setgid(1000 <unfinished ...>
+26636 <... rt_sigreturn resumed> )      = 202
+26635 <... setgid resumed> )            = 0
+26636 futex(0x5026a0, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+26635 tgkill(26635, 26636, SIGRT_1 <unfinished ...>
+26636 <... futex resumed> )             = ? ERESTARTSYS (To be restarted)
+26635 <... tgkill resumed> )            = 0
+26636 --- SIGRT_1 (Unknown signal 33) @ 0 (0) ---
+26635 futex(0x7ffff5cd0ea0, FUTEX_WAIT_PRIVATE, 1, NULL <unfinished ...>
+26636 setgroups(0, [])                  = 0
+26636 futex(0x7f29f3197d1c, FUTEX_WAKE_PRIVATE, 1) = 0
+26636 futex(0x7ffff5cd0ea0, FUTEX_WAKE_PRIVATE, 1) = 1
+26635 <... futex resumed> )             = 0
+26636 rt_sigreturn(0x7ffff5cd0ea0 <unfinished ...>
+26635 setgroups(0, [] <unfinished ...>
+26636 <... rt_sigreturn resumed> )      = 202
+26635 <... setgroups resumed> )         = 0
+26636 futex(0x5026a0, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+26635 open("/proc/sys/kernel/ngroups_max", O_RDONLY) = 7
+26635 read(7, "65536\n", 31)            = 6
+26635 close(7)                          = 0
+26635 open("/etc/group", O_RDONLY|O_CLOEXEC) = 7
+26635 lseek(7, 0, SEEK_CUR)             = 0
+26635 fstat(7, {st_mode=S_IFREG|0644, st_size=854, ...}) = 0
+26635 mmap(NULL, 854, PROT_READ, MAP_SHARED, 7, 0) = 0x7f29f51d4000
+26635 lseek(7, 854, SEEK_SET)           = 854
+26635 fstat(7, {st_mode=S_IFREG|0644, st_size=854, ...}) = 0
+26635 munmap(0x7f29f51d4000, 854)       = 0
+26635 close(7)                          = 0
+26635 tgkill(26635, 26636, SIGRT_1)     = 0
+26635 futex(0x7ffff5cd0e60, FUTEX_WAIT_PRIVATE, 1, NULL <unfinished ...>
+26636 <... futex resumed> )             = ? ERESTARTSYS (To be restarted)
+26636 --- SIGRT_1 (Unknown signal 33) @ 0 (0) ---
+26636 setgroups(8, [1000, 4, 24, 27, 30, 46, 109, 124]) = 0
+26636 futex(0x7f29f3197d1c, FUTEX_WAKE_PRIVATE, 1) = 0
+26636 futex(0x7ffff5cd0e60, FUTEX_WAKE_PRIVATE, 1) = 1
+26635 <... futex resumed> )             = 0
+26636 rt_sigreturn(0x7ffff5cd0e60 <unfinished ...>
+26635 setgroups(8, [1000, 4, 24, 27, 30, 46, 109, 124] <unfinished ...>
+26636 <... rt_sigreturn resumed> )      = 202
+26635 <... setgroups resumed> )         = 0
+26636 futex(0x5026a0, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+26635 tgkill(26635, 26636, SIGRT_1 <unfinished ...>
+26636 <... futex resumed> )             = ? ERESTARTSYS (To be restarted)
+26635 <... tgkill resumed> )            = 0
+26636 --- SIGRT_1 (Unknown signal 33) @ 0 (0) ---
+26635 futex(0x7ffff5cd0ea0, FUTEX_WAIT_PRIVATE, 1, NULL <unfinished ...>
+26636 setuid(1000)                      = 0
+26636 futex(0x7f29f3197d1c, FUTEX_WAKE_PRIVATE, 1) = 0
+26636 futex(0x7ffff5cd0ea0, FUTEX_WAKE_PRIVATE, 1) = 1
+26635 <... futex resumed> )             = 0
+26636 rt_sigreturn(0x7ffff5cd0ea0 <unfinished ...>
+26635 setuid(1000 <unfinished ...>
+26636 <... rt_sigreturn resumed> )      = 202
+26635 <... setuid resumed> )            = 0
+26636 futex(0x5026a0, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+26635 rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGUSR1, {SIG_IGN, [], SA_RESTORER, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGINT, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGTERM, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGHUP, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGALRM, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 rt_sigaction(SIGCHLD, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 getgid()                          = 1000
+26635 getuid()                          = 1000
+26635 write(5, "26635\n", 6)            = 6
+26635 close(5)                          = 0
+26635 open("/var/log/lighttpd/error.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 5
+26635 fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+26635 write(5, "2014-07-06 13:34:07: (log.c.164)"..., 49) = 49
+26635 open("/var/log/lighttpd/access.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 7
+26635 fcntl(7, F_SETFD, FD_CLOEXEC)     = 0
+26635 epoll_create(2049)                = 8
+26635 fcntl(8, F_SETFD, FD_CLOEXEC)     = 0
+26635 brk(0xd68000)                     = 0xd68000
+26635 rt_sigaction(SIGCHLD, {0x4c80f0, [], SA_RESTORER|SA_SIGINFO, 0x7f29f4967cb0}, NULL, 8) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 6, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=6, u64=6}}) = 0
+26635 open("/dev/null", O_RDONLY)       = 9
+26635 close(9)                          = 0
+26635 fcntl(6, F_SETFD, FD_CLOEXEC)     = 0
+26635 fcntl(6, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 epoll_wait(8, {{EPOLLIN, {u32=6, u64=6}}}, 2049, 1000) = 1
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49706), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 9
+26635 brk(0xd89000)                     = 0xd89000
+26635 brk(0xdaa000)                     = 0xdaa000
+26635 fcntl(9, F_SETFD, FD_CLOEXEC)     = 0
+26635 fcntl(9, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(9, FIONREAD, [100])         = 0
+26635 read(9, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", {st_mode=S_IFREG|S_ISVTX|0777, st_size=35912, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 10
+26635 close(10)                         = 0
+26635 setsockopt(9, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(9, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 10
+26635 fcntl(10, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(9, 10, [0], 35912)       = 28709
+26635 setsockopt(9, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 9, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=9, u64=9}}) = 0
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49707), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 11
+26635 fcntl(11, F_SETFD, FD_CLOEXEC)    = 0
+26635 fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(11, FIONREAD, [100])        = 0
+26635 read(11, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 setsockopt(11, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(11, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 12
+26635 fcntl(12, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(11, 12, [0], 35912)      = 28709
+26635 setsockopt(11, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 11, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=11, u64=11}}) = 0
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49708), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 13
+26635 fcntl(13, F_SETFD, FD_CLOEXEC)    = 0
+26635 fcntl(13, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(13, FIONREAD, [100])        = 0
+26635 read(13, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 setsockopt(13, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(13, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 14
+26635 fcntl(14, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(13, 14, [0], 35912)      = 28709
+26635 setsockopt(13, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 13, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=13, u64=13}}) = 0
+26635 accept(6, 0x7ffff5cd0db0, [112])  = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_wait(8, {{EPOLLOUT, {u32=9, u64=9}}, {EPOLLOUT, {u32=11, u64=11}}}, 2049, 1000) = 2
+26635 sendfile(9, 10, [28709], 7203)    = 7203
+26635 close(10)                         = 0
+26635 sendfile(11, 12, [28709], 7203)   = 7203
+26635 close(12)                         = 0
+26635 write(7, "::ffff:130.203.157.155 130.203.1"..., 136) = 136
+26635 shutdown(9, 1 /* send */)         = 0
+26635 read(9, 0x7ffff5cd0a30, 1024)     = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 9, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=9, u64=9}}) = 0
+26635 read(9, "", 1024)                 = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 9, {0, {u32=0, u64=0}}) = 0
+26635 close(9)                          = 0
+26635 shutdown(11, 1 /* send */)        = 0
+26635 read(11, 0x7ffff5cd0a30, 1024)    = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=11, u64=11}}) = 0
+26635 read(11, "", 1024)                = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 11, {0, {u32=0, u64=0}}) = 0
+26635 close(11)                         = 0
+26635 epoll_wait(8, {{EPOLLOUT, {u32=13, u64=13}}, {EPOLLIN, {u32=6, u64=6}}}, 2049, 1000) = 2
+26635 sendfile(13, 14, [28709], 7203)   = 7203
+26635 close(14)                         = 0
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49709), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 9
+26635 fcntl(9, F_SETFD, FD_CLOEXEC)     = 0
+26635 fcntl(9, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(9, FIONREAD, [100])         = 0
+26635 read(9, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 stat("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", {st_mode=S_IFREG|S_ISVTX|0777, st_size=35912, ...}) = 0
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 10
+26635 close(10)                         = 0
+26635 setsockopt(9, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(9, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 10
+26635 fcntl(10, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(9, 10, [0], 35912)       = 28709
+26635 setsockopt(9, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 9, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=9, u64=9}}) = 0
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49710), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 11
+26635 fcntl(11, F_SETFD, FD_CLOEXEC)    = 0
+26635 fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(11, FIONREAD, [100])        = 0
+26635 read(11, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 setsockopt(11, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(11, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 12
+26635 fcntl(12, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(11, 12, [0], 35912)      = 28709
+26635 setsockopt(11, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 11, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=11, u64=11}}) = 0
+26635 accept(6, 0x7ffff5cd0db0, [112])  = -1 EAGAIN (Resource temporarily unavailable)
+26635 shutdown(13, 1 /* send */)        = 0
+26635 read(13, 0x7ffff5cd0a30, 1024)    = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 13, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=13, u64=13}}) = 0
+26635 read(13, "", 1024)                = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 13, {0, {u32=0, u64=0}}) = 0
+26635 close(13)                         = 0
+26635 epoll_wait(8, {{EPOLLIN, {u32=6, u64=6}}, {EPOLLOUT, {u32=9, u64=9}}, {EPOLLOUT, {u32=11, u64=11}}}, 2049, 1000) = 3
+26635 accept(6, {sa_family=AF_INET6, sin6_port=htons(49711), inet_pton(AF_INET6, "::ffff:130.203.157.155", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 13
+26635 fcntl(13, F_SETFD, FD_CLOEXEC)    = 0
+26635 fcntl(13, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+26635 ioctl(13, FIONREAD, [100])        = 0
+26635 read(13, "GET /httpTestFile_36KB HTTP/1.0\r"..., 4159) = 100
+26635 setsockopt(13, SOL_TCP, TCP_CORK, [1], 4) = 0
+26635 writev(13, [{"HTTP/1.0 200 OK\r\nContent-Type: a"..., 251}], 1) = 251
+26635 open("/home/jun/straight-DTA/lighttpd-1.4.35/www/htdocs/httpTestFile_36KB", O_RDONLY) = 14
+26635 fcntl(14, F_SETFD, FD_CLOEXEC)    = 0
+26635 sendfile(13, 14, [0], 35912)      = 28709
+26635 setsockopt(13, SOL_TCP, TCP_CORK, [0], 4) = 0
+26635 epoll_ctl(8, EPOLL_CTL_ADD, 13, {EPOLLOUT|EPOLLERR|EPOLLHUP, {u32=13, u64=13}}) = 0
+26635 accept(6, 0x7ffff5cd0db0, [112])  = -1 EAGAIN (Resource temporarily unavailable)
+26635 sendfile(9, 10, [28709], 7203)    = 7203
+26635 close(10)                         = 0
+26635 sendfile(11, 12, [28709], 7203)   = 7203
+26635 close(12)                         = 0
+26635 shutdown(9, 1 /* send */)         = 0
+26635 read(9, 0x7ffff5cd0a30, 1024)     = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 9, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=9, u64=9}}) = 0
+26635 read(9, "", 1024)                 = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 9, {0, {u32=0, u64=0}}) = 0
+26635 close(9)                          = 0
+26635 shutdown(11, 1 /* send */)        = 0
+26635 read(11, 0x7ffff5cd0a30, 1024)    = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 11, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=11, u64=11}}) = 0
+26635 read(11, "", 1024)                = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 11, {0, {u32=0, u64=0}}) = 0
+26635 close(11)                         = 0
+26635 epoll_wait(8, {{EPOLLOUT, {u32=13, u64=13}}}, 2049, 1000) = 1
+26635 sendfile(13, 14, [28709], 7203)   = 7203
+26635 close(14)                         = 0
+26635 shutdown(13, 1 /* send */)        = 0
+26635 read(13, 0x7ffff5cd0a30, 1024)    = -1 EAGAIN (Resource temporarily unavailable)
+26635 epoll_ctl(8, EPOLL_CTL_MOD, 13, {EPOLLIN|EPOLLERR|EPOLLHUP, {u32=13, u64=13}}) = 0
+26635 read(13, "", 1024)                = 0
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 13, {0, {u32=0, u64=0}}) = 0
+26635 close(13)                         = 0
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 epoll_wait(8, d41470, 2049, 1000) = -1 EINTR (Interrupted system call)
+26635 --- SIGINT (Interrupt) @ 0 (0) ---
+26635 rt_sigreturn(0x2)                 = -1 EINTR (Interrupted system call)
+26635 epoll_ctl(8, EPOLL_CTL_DEL, 6, {0, {u32=0, u64=0}}) = 0
+26635 close(6)                          = 0
+26635 unlink("/var/run/lighttpd.pid")   = -1 EACCES (Permission denied)
+26635 stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+26635 write(5, "2014-07-06 13:34:13: (server.c.1"..., 71) = 71
+26635 epoll_wait(8, {}, 2049, 1000)     = 0
+26635 write(5, "2014-07-06 13:34:13: (server.c.1"..., 72) = 72
+26635 close(5)                          = 0
+26635 write(7, "::ffff:130.203.157.155 130.203.1"..., 680) = 680
+26635 close(7)                          = 0
+26635 munmap(0x7f29f2794000, 2105512)   = 0
+26635 munmap(0x7f29f2591000, 2105464)   = 0
+26635 munmap(0x7f29f238c000, 2113880)   = 0
+26635 munmap(0x7f29f2187000, 2114328)   = 0
+26635 munmap(0x7f29f1f83000, 2109736)   = 0
+26635 close(8)                          = 0
+26635 brk(0xd68000)                     = 0xd68000
+26635 futex(0x5026a0, FUTEX_WAKE_PRIVATE, 1) = 1
+26635 futex(0x7f29f31979d0, FUTEX_WAIT, 26636, NULL <unfinished ...>
+26636 <... futex resumed> )             = 0
+26636 fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+26636 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f29f51d4000
+26636 write(3, "\1\0\3\0\5\0\7\0\t\0\v\0\r\0\17\0\21\0\23\0\234\17\235\17\236\17\240\17\242\17\243\17"..., 442368) = 442368
+26636 write(3, "\335\25\333\25\334\25\236\26\237\26\240\26\241\26\242\26\335\25\333\25\334\25\236\26\237\26\240\26\241\26\242\26"..., 3782) = 3782
+26636 madvise(0x7f29f2997000, 8368128, MADV_DONTNEED) = 0
+26636 _exit(0)                          = ?
+26635 <... futex resumed> )             = 0
+26635 exit_group(0)                     = ?
